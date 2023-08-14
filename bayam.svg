@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="16px"
+   height="16px"
+   viewBox="0 0 16 16"
+   version="1.1"
+   fill="red"
+   id="svg4"
+   sodipodi:docname="bayam1.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="32"
+     inkscape:cx="8.921875"
+     inkscape:cy="7.25"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="1358"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4"
+     showguides="true">
+    <sodipodi:guide
+       position="7.1815532,6.4982526"
+       orientation="1,0"
+       id="guide1814"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="5.5684659,3.8686993"
+       orientation="0,-1"
+       id="guide1816"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="11.625,7.625"
+       orientation="0,-1"
+       id="guide1818"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="11.8125,8.59375"
+       orientation="1,0"
+       id="guide1820"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <path
+     id="path1780"
+     style="fill:none;stroke:#000000;stroke-width:0.977893"
+     d="m 11.878657,15.388156 c 1.874539,-0.04868 3.379366,-1.602599 3.379366,-3.512403 0,-1.940497 -1.553581,-3.5135797 -3.470021,-3.5135797 v 0 c -0.111668,0 -4.1389676,0.014487 -4.1389676,0.014487 0,0 0.016994,-4.0689855 0.016994,-4.1806533 v 0 c 0,-1.9164398 -1.5730827,-3.47002119 -3.5135786,-3.47002117 -1.9098047,2e-8 -3.46372652,1.50482667 -3.51240292,3.37936607 -7.82e-4,0.030125 -0.0961268,8.0643581 -0.0961268,8.0643581 0,0 11.30461187,-0.05112 11.33473587,-0.05192 1.87454,-0.04868 3.379366,-1.602599 3.379367,-3.5124041 0,-1.940496 -1.553582,-3.513579 -3.470022,-3.513579 v 0 c -0.111667,0 -0.8765,-0.027092 -0.8765,-0.027092 0,0 0.0249,-0.757039 0.0249,-0.8687068 v 0 c 0,-1.9164398 -1.5730834,-3.47002119 -3.5135793,-3.47002117 -1.9098047,2e-8 -3.463727,1.50482667 -3.512403,3.37936607 -7.8e-4,0.030125 -0.085608,11.271705 -0.085608,11.271705 0,0 8.0237253,0.0119 8.0538503,0.0111 z"
+     sodipodi:nodetypes="cssscssscccssscssscccc" />
+</svg>
