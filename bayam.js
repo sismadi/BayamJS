@@ -516,7 +516,7 @@ onchange="b.${x}.input.js.my(this,'${id}');">
 }
 
 else if (nod && nod.nama === "option") {
-let out = `<select id="${x}-${induk}-${id}" name="${id}" >`;
+let out = `<select aria-label="${id}" id="${x}-${induk}-${id}" name="${id}" >`;
 for (let i in nod.arr) {
 out += `<option value="${nod.arr[i]}">${nod.arr[i]}</option>`;
 }
@@ -1076,7 +1076,7 @@ out=`<button class="btn" id="getAdd" onClick="b.${x}.filter.js.add();" >+</butto
 
 <div class="col-1-4">
 <div style="margin:5px">
-<select name="ope[]" >
+<select aria-label="ope" name="ope[]" >
 <option value="AND" >AND</option>
 <option value="OR" >OR</option>
 </select>
@@ -1085,7 +1085,7 @@ out=`<button class="btn" id="getAdd" onClick="b.${x}.filter.js.add();" >+</butto
 
 <div class="col-3-4">
 <div style="margin:5px">
-<select name="fld[]" id="fld">`;
+<select aria-label="fld" name="fld[]" id="fld">`;
 for ( i in data) { out+=`<option value="${i}" >${i}</option>`; }
 out+=`</select>
 </div>
@@ -1093,7 +1093,7 @@ out+=`</select>
 
 <div class="col-1-4">
 <div style="margin:5px">
-<select name="ope1[]" >`;
+<select aria-label="ope1" name="ope1[]" >`;
 for ( i in data1) { out+=`<option value="${data1[i]}" >${data1[i]}</option>`; }
 out+=`</select>
 </div>
@@ -1112,7 +1112,7 @@ out+=`</select>
 <div id="newlink"></div>
 <div class="clear">
 <input aria-label="hidden" type="hidden" name="order1" id="order1" value="ORDER BY">
-ORDER BY:<select name="sortir" id="fld1">`;
+ORDER BY:<select aria-label="fld1" name="sortir" id="fld1">`;
 for ( i in data) { out+=`<option value="${i}" >${i}</option>`; }
 out+=`</select>
 </div>
@@ -1184,7 +1184,7 @@ arr=[
 
 out=b[x].form.select('fld',data);
 out+=b[x].form.input('key','');
-out+='Periode:<select name="periode" id="periode">';
+out+='Periode:<select aria-label="periode" name="periode" id="periode">';
 for ( i in arr) { out+='<option value=" '+arr[i].value+' " >'+arr[i].key+'</option>'; }
 out+='</select>';
 out+=b[x].form.button('getCari','Search');
