@@ -1355,6 +1355,26 @@ if(list.length > 0){
 for (var i=0 ; i<list.length; i++){ list[i].innerHTML = b[x].svg.js.icon(key);}
 }}
 }, // end list
+
+
+icons:function(){
+var {data}=b[x].svg;
+function icon(id='house'){
+return `<svg id="svg${id}" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"
+stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+fill="none" stroke="#fff"
+>
+<path id="path${id}" d="${data[id]}" />
+</svg>`;
+};
+
+for(key in data ){
+list = document.getElementsByClassName("bi-"+key);
+if(list.length > 0){
+for (var i=0 ; i<list.length; i++){ list[i].innerHTML = icon(key);
+}}}
+}, // end load icons
+
 },// end js
 }, // end svg
 
