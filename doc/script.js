@@ -228,6 +228,7 @@ JSON
 <div class="row zColor">
 <div class="col-1-4">Contoh kode (HTML, JSON, JS)</div>
 <div class="col-3-4"><pre class="html"><code>&lt;div id="${nah}"&gt;&lt;/div&gt;
+var mod=bayam('doc');
 mod.${nah}.json=${JSON.stringify(mod[nah].json)}
 document.getElementById("${nah}").innerHTML=mod.${nah}.html(); </code></pre> </div></div>
 <div class="row zColor">
