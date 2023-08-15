@@ -14,7 +14,7 @@ api:'database.php',
 data:[],
 isDebug:1,
 isLang:0,
-isDb:1,
+isDb:0,
 isDbs:1,
 isStr:1,
 ce:function(id) { return document.createElement(id);},
@@ -141,9 +141,9 @@ data:[
 html:function(){
 var {id,data,item,akses}=b[x].button.json;
 // log(akses)
-if(setting.load.isDb){
-data=b[x].button.js.akses();
-}
+// if(setting.load.isDb){
+// data=b[x].button.js.akses();
+// }
 
 out=`<div class="btns">`;
 for (key in data) {node=data[key];
